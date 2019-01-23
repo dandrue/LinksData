@@ -1,77 +1,145 @@
-BodyLink:
+## BodyLink:
 
-	Mesh Bounding Box Size 333.000000 746.000000 166.000000
-	Mesh Bounding Box Diag 833.643188 
-	Mesh Volume is 486221.531250
-	Mesh Surface is 293044.281250
-	Thin shell barycenter 79.821976 108.457695 0.008978
-	Center of Mass is 70.956482 127.259689 0.029371
-	Inertia Tensor is :
-	| 22404763648.000000 6741302272.000000 940207.000000 |
-	| 6741302272.000000 4684873216.000000 -1743085.250000 |
-	| 940207.000000 -1743085.250000 25844056064.000000 |
-	Principal axes are :
-	| 0.947583 -0.319510 0.000298 |
-	| 0.319510 0.947583 0.000013 |
-	| -0.000286 0.000083 1.000000 |
-	axis momenta are :
-	| 24677822464.000000 2411813888.000000 25844056064.000000 |
+Propiedades de masa de BodyAssembly
+     Configuración:  Predeterminado
+     Sistema de coordenadas:  -- predeterminado --
 
-ForearmFrame
+Masa = 3836.80 gramos
 
-	Mesh Bounding Box Size 407.272003 402.584839 170.700012
-	Mesh Bounding Box Diag 597.564697 
-	Mesh Volume is 271403.562500
-	Mesh Surface is 125210.882812
-	Thin shell barycenter 8.820454 5.492130 1.910559
-	Center of Mass is 11.180970 33.029125 2.167955
-	Inertia Tensor is :
-	| 3696776448.000000 2553240064.000000 8815214.000000 |
-	| 2553240064.000000 4352102400.000000 -4973956.000000 |
-	| 8815214.000000 -4973956.000000 5890015744.000000 |
-	Principal axes are :
-	| 0.750761 0.660574 -0.000273 |
-	| -0.660570 0.750755 -0.003687 |
-	| -0.002231 0.002948 0.999993 |
-	axis momenta are :
-	| 1450238208.000000 6598624768.000000 5890031616.000000 |
+Volumen = 485670.95 milímetros cúbicos
 
-ForearmSlider
+Área de superficie = 292037.81  milímetros cuadrados
 
-	Mesh Bounding Box Size 169.972015 85.000000 80.000000
-	Mesh Bounding Box Diag 206.192841 
-	Mesh Volume is 74971.500000
-	Mesh Surface is 57222.488281
-	Thin shell barycenter -0.000003 -9.505345 -0.000000
-	Center of Mass is 0.001295 -12.660297 0.000000
-	Inertia Tensor is :
-	| 96722824.000000 -4158.758789 -12.571354 |
-	| -4158.758789 319891072.000000 -0.074836 |
-	| -12.571354 -0.074836 337686304.000000 |
-	Principal axes are :
-	| 1.000000 -0.000019 -0.000000 |
-	| 0.000019 1.000000 -0.000000 |
-	| 0.000000 0.000000 1.000000 |
-	axis momenta are :
-	| 96722824.000000 319891072.000000 337686304.000000 |
+Centro de masa: ( milímetros )
+	X = 0.00
+	Y = 500.65
+	Z = 79.73
 
-BaseLink
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 0.00,  0.95,  0.32)   	Px = 19093451.46
+	 Iy = ( 0.00, -0.32,  0.95)   	Py = 195179178.62
+	 Iz = ( 1.00,  0.00,  0.00)   	Pz = 204390381.93
 
-	Mesh Bounding Box Size 615.083923 490.000000 612.807556
-	Mesh Bounding Box Diag 996.976135 
-	Mesh Volume is 922266.562500
-	Mesh Surface is 597401.437500
-	Thin shell barycenter 24.510075 -165.526291 0.000105
-	Center of Mass is 26.031195 -166.820007 0.000187
-	Inertia Tensor is :
-	| 35119964160.000000 -2271087872.000000 137415.687500 |
-	| -2271087872.000000 40136323072.000000 -11281.165039 |
-	| 137415.687500 -11281.165039 30818344960.000000 |
-	Principal axes are :
-	| 0.933079 -0.359671 -0.000036 |
-	| 0.359671 0.933079 -0.000008 |
-	| 0.000036 -0.000006 1.000000 |
-	axis momenta are :
-	| 34244536320.000000 41011752960.000000 30818344960.000000 |
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 204390381.93	Lxy = 356.64	Lxz = 106.64
+	Lyx = 356.64	Lyy = 37093337.12	Lyz = 53343482.00
+	Lzx = 106.64	Lzy = 53343482.00	Lzz = 177179292.96
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 1190469378.87	Ixy = -831.98	Ixz = -82.65
+	Iyx = -831.98	Iyy = 61482116.80	Iyz = 206491942.06
+	Izx = -82.65	Izy = 206491942.06	Izz = 1138869510.24
+
+## ForearmFrame
+
+Propiedades de masa de ForearmFrame
+     Configuración:  Predeterminado
+     Sistema de coordenadas:  -- predeterminado --
+
+Masa = 2138.02 gramos
+
+Volumen = 270635.72 milímetros cúbicos
+
+Área de superficie = 123408.92  milímetros cuadrados
+
+Centro de masa: ( milímetros )
+	X = 219.55
+	Y = -26.82
+	Z = 75.00
+
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 1.00,  0.03,  0.00)   	Px = 11447101.62
+	 Iy = ( 0.00,  0.00, -1.00)   	Py = 45598168.32
+	 Iz = (-0.03,  1.00,  0.00)   	Pz = 51221871.13
+
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 11479510.82	Lxy = 1134908.80	Lxz = 0.00
+	Lyx = 1134908.80	Lyy = 51189461.93	Lyz = 0.13
+	Lzx = 0.00	Lzy = 0.13	Lzz = 45598168.32
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 25044000.94	Ixy = -11455199.97	Ixz = 35204843.16
+	Iyx = -11455199.97	Iyy = 166271079.49	Iyz = -4300924.24
+	Izx = 35204843.16	Izy = -4300924.24	Izz = 150191526.23
+
+## ForearmSlider
+
+	Propiedades de masa de CorrederaAntebrazo
+     Configuración:  Predeterminado
+     Sistema de coordenadas:  -- predeterminado --
+
+Densidad = 0.01 gramos por milímetro cúbico
+
+Masa = 592.78 gramos
+
+Volumen = 75035.27 milímetros cúbicos
+
+Área de superficie = 57264.01  milímetros cuadrados
+
+Centro de masa: ( milímetros )
+	X = 0.00
+	Y = -23.14
+	Z = 40.00
+
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 1.00,  0.00,  0.00)   	Px = 765635.72
+	 Iy = ( 0.00,  1.00,  0.00)   	Py = 2531586.09
+	 Iz = ( 0.00,  0.00,  1.00)   	Pz = 2673153.87
+
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 765635.72	Lxy = 4.16	Lxz = 1.90
+	Lyx = 4.16	Lyy = 2531586.09	Lyz = -0.25
+	Lzx = 1.90	Lzy = -0.25	Lzz = 2673153.87
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 2031364.03	Ixy = 2.02	Ixz = 5.59
+	Iyx = 2.02	Iyy = 3480031.49	Iyz = -548567.03
+	Izx = 5.59	Izy = -548567.03	Izz = 2990436.77
+
+## BaseLink
+
+	Propiedades de masa de Base
+     Configuración:  Predeterminado<Como mecanizada>
+     Sistema de coordenadas:  -- predeterminado --
+
+Densidad = 0.01 gramos por milímetro cúbico
+
+Masa = 7261.09 gramos
+
+Volumen = 922629.56 milímetros cúbicos
+
+Área de superficie = 597444.94  milímetros cuadrados
+
+Centro de masa: ( milímetros )
+	X = -40.01
+	Y = 58.18
+	Z = 0.00
+
+Ejes principales de inercia y momentos principales de inercia: ( gramos *  milímetros cuadrados )
+Medido desde el centro de masa.
+	 Ix = ( 0.00,  0.00,  1.00)   	Px = 242646405.57
+	 Iy = ( 0.93,  0.36,  0.00)   	Py = 269625920.28
+	 Iz = (-0.36,  0.93,  0.00)   	Pz = 322910787.46
+
+Momentos de inercia: ( gramos *  milímetros cuadrados )
+Obtenidos en el centro de masa y alineados con el sistema de coordenadas de resultados.
+	Lxx = 276516917.20	Lxy = 17880157.08	Lxz = 35.99
+	Lyx = 17880157.08	Lyy = 316019790.54	Lyz = 19.29
+	Lzx = 35.99	Lzy = 19.29	Lzz = 242646405.57
+
+Momentos de inercia: ( gramos *  milímetros cuadrados)
+Medido desde el sistema de coordenadas de salida.
+	Ixx = 301092342.95	Ixy = 979701.66	Ixz = -69.94
+	Iyx = 979701.66	Iyy = 327642189.12	Iyz = 173.32
+	Izx = -69.94	Izy = 173.32	Izz = 278844229.90
 
 
